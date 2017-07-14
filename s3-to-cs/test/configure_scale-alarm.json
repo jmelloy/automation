@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:772688139689:s3-to-bq-dev-trigger:a0541912-b586-4bcc-9395-7c4e38850d7a",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "b43508f7-578f-5ab7-9b7f-5930d59199e7",
+        "TopicArn": "arn:aws:sns:us-west-2:772688139689:s3-to-bq-dev-trigger",
+        "Subject": "ALARM: \"s3-to-bq-dev-s3tobqdevmessagesMessageAlarm1-TC53W0V9NFIT\" in US West - Oregon",
+        "Message": "{\"AlarmName\":\"s3-to-bq-dev-s3tobqdevmessagesMessageAlarm1-TC53W0V9NFIT\",\"AlarmDescription\":\"Alarm if queue contains more than 1 messages\",\"AWSAccountId\":\"772688139689\",\"NewStateValue\":\"ALARM\",\"NewStateReason\":\"Threshold Crossed: 1 datapoint (2914.0) was greater than or equal to the threshold (1.0).\",\"StateChangeTime\":\"2017-06-23T20:53:50.494+0000\",\"Region\":\"US West - Oregon\",\"OldStateValue\":\"INSUFFICIENT_DATA\",\"Trigger\":{\"MetricName\":\"ApproximateNumberOfMessagesVisible\",\"Namespace\":\"AWS/SQS\",\"StatisticType\":\"Statistic\",\"Statistic\":\"SUM\",\"Unit\":null,\"Dimensions\":[{\"name\":\"QueueName\",\"value\":\"s3-to-bq-dev-messages\"}],\"Period\":60,\"EvaluationPeriods\":1,\"ComparisonOperator\":\"GreaterThanOrEqualToThreshold\",\"Threshold\":1.0,\"TreatMissingData\":\"\",\"EvaluateLowSampleCountPercentile\":\"\"}}",
+        "Timestamp": "2017-06-23T20:53:50.526Z",
+        "SignatureVersion": "1",
+        "Signature": "T1SqJo7/nnxRKNRBizARWIRg7ny1JAjaZlfDL62k/GNwFG1Kvoy9Eq37Os60KzP19PM1WZtjT4uIwzwLOh1gJOYzyu+/F5xDLF7tdqxCzZLDgzFN42LW1vzqZRR70hfIwVEZ/rBQuS7DPVH12HOV+fgxgGHSEPXMupv8BSpcawjN9w5IhXYvwHMgzvv38O6hoIKInUskx0dmQ2Xpe4l5TKQ9owCa+Uh16qGE2Pv8ckNq84X4PdKQiblnv8DM0iLXaVpP87OQogwIJZe4jqyQU+r5BE6FhIfwd+II244reeY9Qu3iuzMG3VBNpI6V2im8qUAmSYj8UM6N4xn5wR0baQ==",
+        "SigningCertUrl": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+        "UnsubscribeUrl": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:772688139689:s3-to-bq-dev-trigger:a0541912-b586-4bcc-9395-7c4e38850d7a",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}

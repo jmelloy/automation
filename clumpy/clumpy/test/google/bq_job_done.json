@@ -1,0 +1,68 @@
+{
+  "kind": "bigquery#job",
+  "etag": "\"a19Ag3pFAfODmeUgLyZLAGQkEbw/iMgjRLKNZxD9bmvElPLPNmBZ9mA\"",
+  "id": "whois-980:job_Hc6xRHPmDSvrpv5KweusM50_nw0",
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/whois-980/jobs/job_Hc6xRHPmDSvrpv5KweusM50_nw0",
+  "jobReference": {
+    "projectId": "whois-980",
+    "jobId": "job_Hc6xRHPmDSvrpv5KweusM50_nw0"
+  },
+  "configuration": {
+    "load": {
+      "sourceUris": [
+        "gs://donuts_zone/2017-06-26/adult.1651.txt.gz"
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "hostname",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "ttl",
+            "type": "INTEGER",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "in",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "value",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      "destinationTable": {
+        "projectId": "whois-980",
+        "datasetId": "zone",
+        "tableId": "adult_20170626"
+      },
+      "fieldDelimiter": "\t",
+      "ignoreUnknownValues": true
+    }
+  },
+  "status": {
+    "state": "DONE"
+  },
+  "statistics": {
+    "creationTime": "1498518576829",
+    "startTime": "1498518577220",
+    "endTime": "1498518580900",
+    "load": {
+      "inputFiles": "1",
+      "inputFileBytes": "1301304",
+      "outputRows": "26120",
+      "outputBytes": "1449851"
+    }
+  },
+  "user_email": "server-automation@savvy-climber-799.iam.gserviceaccount.com"
+}

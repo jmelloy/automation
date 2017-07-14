@@ -1,0 +1,1 @@
+Helper API for connecting to Google and Amazon

@@ -1,0 +1,3 @@
+
+class BigQueryException(Exception):
+    pass

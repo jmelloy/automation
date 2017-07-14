@@ -1,0 +1,75 @@
+{
+  "kind": "bigquery#job",
+  "etag": "\"a19Ag3pFAfODmeUgLyZLAGQkEbw/O4qtQOFFhsbl-B11oewQ6Nz-eCw\"",
+  "id": "whois-980:job_UmMf6X71NCgp4PxL1xE6WUfS8n0",
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/whois-980/jobs/job_UmMf6X71NCgp4PxL1xE6WUfS8n0",
+  "jobReference": {
+    "projectId": "whois-980",
+    "jobId": "job_UmMf6X71NCgp4PxL1xE6WUfS8n0"
+  },
+  "configuration": {
+    "load": {
+      "sourceUris": [
+        "gs://donuts_zone/2017-06-26/adult.1651.txt.gz"
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "hostname",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "ttl",
+            "type": "INTEGER",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "in",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "type",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "value",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      "destinationTable": {
+        "projectId": "whois-980",
+        "datasetId": "zone",
+        "tableId": "adult_20170626"
+      }
+    }
+  },
+  "status": {
+    "state": "DONE",
+    "errorResult": {
+      "reason": "invalid",
+      "message": "Too many errors encountered."
+    },
+    "errors": [
+      {
+        "reason": "invalid",
+        "message": "Too many errors encountered."
+      },
+      {
+        "reason": "invalid",
+        "location": "/gzip/subrange//bigstore/donuts_zone/2017-06-26/adult.1651.txt.gz",
+        "message": "CSV table references column position 1, but line starting at position:0 contains only 1 columns."
+      }
+    ]
+  },
+  "statistics": {
+    "creationTime": "1498517878780",
+    "startTime": "1498517879218",
+    "endTime": "1498517879644"
+  },
+  "user_email": "server-automation@savvy-climber-799.iam.gserviceaccount.com"
+}

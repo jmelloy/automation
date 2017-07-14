@@ -1,0 +1,15 @@
+{
+  "queryStringParameters": {
+    "path": "gs://test/test.csv",
+    "fields": [
+      "asdf:STRING",
+      "lksjdf:INTEGER"
+    ],
+    "destination": "test",
+    "datasetId": "test",
+    "bucket": "test",
+    "key": "test",
+    "timestamp": "2017-06-26T13:59:05.262024",
+    "project": "whois-980"
+  }
+}

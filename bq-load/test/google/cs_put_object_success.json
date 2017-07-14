@@ -1,0 +1,19 @@
+{
+  "kind": "storage#object",
+  "id": "donuts_zone/2017-06-26/adult.1651.txt.gz/1498517382180239",
+  "selfLink": "https://www.googleapis.com/storage/v1/b/donuts_zone/o/2017-06-26%2Fadult.1651.txt.gz",
+  "name": "2017-06-26/adult.1651.txt.gz",
+  "bucket": "donuts_zone",
+  "generation": "1498517382180239",
+  "metageneration": "1",
+  "contentType": "application/gzip",
+  "timeCreated": "2017-06-26T22:49:42.158Z",
+  "updated": "2017-06-26T22:49:42.158Z",
+  "storageClass": "STANDARD",
+  "timeStorageClassUpdated": "2017-06-26T22:49:42.158Z",
+  "size": "158120",
+  "md5Hash": "mjXwkqQXM3fpa7i0AxHueA==",
+  "mediaLink": "https://www.googleapis.com/download/storage/v1/b/donuts_zone/o/2017-06-26%2Fadult.1651.txt.gz?generation=1498517382180239&alt=media",
+  "crc32c": "FMTxlg==",
+  "etag": "CI/bhKLM3NQCEAE="
+}
